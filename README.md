@@ -13,7 +13,9 @@ Traveller's Log is a journal for all your travel plans, and a log itinerary for 
 >Still a work in progress.
 
 #### Preview
-![](.md/preview.gif)
+<p align="center">
+  <img src=".md/preview.gif">
+</p>
 
 ## Author
 >Arnold Haban
