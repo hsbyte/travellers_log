@@ -23,13 +23,13 @@ class RecommendedAttractions extends StatelessWidget {
                     children: <Widget>[
                       Text(
                         'Recommended attractions',
-                        style: Theme.of(context).textTheme.subtitle2,
+                        style: Theme.of(context).textTheme.subtitle,
                       ),
                       GestureDetector(
                         onTap: () => print('See All'),
                         child: Text(
                           'See All',
-                          style: Theme.of(context).textTheme.subtitle1,
+                          style: Theme.of(context).textTheme.display1,
                         ),
                       ),
                     ],
@@ -78,12 +78,12 @@ class RecommendedAttractions extends StatelessWidget {
                                 Text(
                                   attraction.activity.name,
                                   maxLines: 3,
-                                  style: Theme.of(context).textTheme.headline1,
+                                  style: Theme.of(context).textTheme.display1,
                                 ),
                                 Text(
                                   '${attraction.state}, ${attraction.country}',
                                   maxLines: 2,
-                                  style: Theme.of(context).textTheme.headline2,
+                                  style: Theme.of(context).textTheme.display2,
                                 ),
                               ],
                             ),

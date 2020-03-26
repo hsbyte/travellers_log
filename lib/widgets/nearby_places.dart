@@ -18,7 +18,7 @@ class NearbyPlaces extends StatelessWidget {
           children: <Widget>[
             Text(
               'Discover nearby places',
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.headline,
             ),
             SizedBox(
               height: 20.0,

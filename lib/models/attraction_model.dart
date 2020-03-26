@@ -38,3 +38,42 @@ class Attraction {
     );
   }
 }
+
+List<Attraction> attractions = [
+  Attraction(
+    city: 'Los Angeles',
+    state: 'California',
+    country: 'United States',
+    countryCode: 'US',
+    activity: Activity(
+      name: 'Yosemite National Park',
+      description:
+          'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.',
+      imageUrl: 'assets/images/Yosemite National Park.png',
+    ),
+  ),
+  Attraction(
+    city: 'Brookings',
+    state: 'Oregon',
+    country: 'United States',
+    countryCode: 'US',
+    activity: Activity(
+      name: 'Samuel H. Boardman State Scenic Corridor',
+      description:
+          'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
+      imageUrl: 'assets/images/Samuel H. Boardman State Scenic Corridor.png',
+    ),
+  ),
+  Attraction(
+    city: 'San Francisco',
+    state: 'California',
+    country: 'United States',
+    countryCode: 'US',
+    activity: Activity(
+      name: 'Golden Gate Bridge',
+      description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageUrl: 'assets/images/Golden Gate Bridge, California.png',
+    ),
+  ),
+];

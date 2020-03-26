@@ -43,14 +43,14 @@ class HotelWhere extends StatelessWidget {
                     ),
                     Text(
                       'Use your location to discover and explore nearby hotels.',
-                      style: Theme.of(context).textTheme.headline2,
+                      style: Theme.of(context).textTheme.display2,
                     ),
                     SizedBox(
                       height: 40.0,
                     ),
                     Text(
                       'HOTELS SUGGESTIONS',
-                      style: Theme.of(context).textTheme.headline3,
+                      style: Theme.of(context).textTheme.display3,
                     ),
                     Divider(
                       thickness: 1.0,

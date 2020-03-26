@@ -44,14 +44,14 @@ class AttractionWhere extends StatelessWidget {
                     ),
                     Text(
                       'Use your location to discover and explore nearby places.',
-                      style: Theme.of(context).textTheme.headline2,
+                      style: Theme.of(context).textTheme.display2,
                     ),
                     SizedBox(
                       height: 40.0,
                     ),
                     Text(
                       'POPULAR DESTINATONS',
-                      style: Theme.of(context).textTheme.headline3,
+                      style: Theme.of(context).textTheme.display3,
                     ),
                     Divider(
                       thickness: 1.0,
@@ -78,11 +78,11 @@ class AttractionWhere extends StatelessWidget {
                           children: <Widget>[
                             Text(
                               attractions[index].city,
-                              style: Theme.of(context).textTheme.headline1,
+                              style: Theme.of(context).textTheme.display1,
                             ),
                             Text(
                               '${attractions[index].state}, ${attractions[index].country}',
-                              style: Theme.of(context).textTheme.headline2,
+                              style: Theme.of(context).textTheme.display2,
                             ),
                           ],
                         ),

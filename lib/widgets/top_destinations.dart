@@ -23,13 +23,13 @@ class TopDestinations extends StatelessWidget {
                     children: <Widget>[
                       Text(
                         'Top destinations',
-                        style: Theme.of(context).textTheme.subtitle2,
+                        style: Theme.of(context).textTheme.subtitle,
                       ),
                       GestureDetector(
                         onTap: () => print('See All'),
                         child: Text(
                           'See All',
-                          style: Theme.of(context).textTheme.subtitle1,
+                          style: Theme.of(context).textTheme.display1,
                         ),
                       ),
                     ],
@@ -77,11 +77,11 @@ class TopDestinations extends StatelessWidget {
                                 ),
                                 Text(
                                   destination.city,
-                                  style: Theme.of(context).textTheme.headline1,
+                                  style: Theme.of(context).textTheme.display1,
                                 ),
                                 Text(
                                   destination.country,
-                                  style: Theme.of(context).textTheme.headline3,
+                                  style: Theme.of(context).textTheme.display2,
                                 ),
                               ],
                             ),

@@ -17,13 +17,13 @@ class PopularRestaurants extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Popular restaurants',
-                  style: Theme.of(context).textTheme.subtitle2,
+                  style: Theme.of(context).textTheme.subtitle,
                 ),
                 GestureDetector(
                   onTap: () => print('See All'),
                   child: Text(
                     'See All',
-                    style: Theme.of(context).textTheme.subtitle1,
+                    style: Theme.of(context).textTheme.display1,
                   ),
                 ),
               ],
@@ -70,12 +70,12 @@ class PopularRestaurants extends StatelessWidget {
                         ),
                         Text(
                           restaurant.name,
-                          style: Theme.of(context).textTheme.headline1,
+                          style: Theme.of(context).textTheme.display1,
                         ),
                         Text(
                           '${restaurant.city}, ${restaurant.country}',
                           maxLines: 3,
-                          style: Theme.of(context).textTheme.headline2,
+                          style: Theme.of(context).textTheme.display2,
                         ),
                       ],
                     ),

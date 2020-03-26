@@ -27,33 +27,33 @@ class App extends StatelessWidget {
 
   ThemeData buildThemeData() {
     final baseTheme = ThemeData();
-    var textTheme2 = TextTheme(
-      subtitle2: TextStyle(
+    var textTheme = TextTheme(
+      subtitle: TextStyle(
         fontSize: 18.0,
         fontWeight: FontWeight.bold,
         color: Colors.black87,
       ),
-      subtitle1: TextStyle(
-        fontSize: 16.0,
+      display1: TextStyle(
+        fontSize: 15.0,
         fontWeight: FontWeight.w800,
-        color: kPrimaryColor,
-      ),
-      headline1: TextStyle(
-        fontSize: 16.0,
-        fontWeight: FontWeight.w600,
         color: Colors.black87,
       ),
-      headline2: TextStyle(
+      display2: TextStyle(
         fontSize: 14.0,
         color: Colors.black87,
       ),
-      headline3: TextStyle(
+      display3: TextStyle(
         fontSize: 16.0,
         letterSpacing: 0.25,
         wordSpacing: 1.0,
         color: Colors.black87,
       ),
-      headline6: TextStyle(
+      display4: TextStyle(
+        fontSize: 16.0,
+        fontWeight: FontWeight.w800,
+        color: kPrimaryColor,
+      ),
+      headline: TextStyle(
         color: Colors.black87,
         fontSize: 22.0,
         fontWeight: FontWeight.bold,
@@ -63,7 +63,7 @@ class App extends StatelessWidget {
       brightness: Brightness.light,
       primaryColor: kPrimaryColor,
       accentColor: kAccentColor,
-      textTheme: textTheme2,
+      textTheme: textTheme,
       scaffoldBackgroundColor: kScaffoldBackgroundColor,
     );
   }
